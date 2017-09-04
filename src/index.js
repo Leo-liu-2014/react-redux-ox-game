@@ -15,6 +15,7 @@ const finalReducer = combineReducers({
 
 const store = createStore(finalReducer)
 
+//console.log(store.getState(),'ttttt')
 
 ReactDOM.render(
   <Provider store={store}>

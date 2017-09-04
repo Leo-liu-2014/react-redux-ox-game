@@ -5,8 +5,9 @@ const changeSquares = (state = [], action) => {
 
     case 'ADD_SQUARE':
       return state.map((square, index) => {
-        
+          
         if (!square && action.index === index) {
+          //console.log(square)
           const newSquare = action.symbol
           return newSquare
         }

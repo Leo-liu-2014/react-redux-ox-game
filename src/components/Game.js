@@ -27,6 +27,7 @@ class GameP extends React.Component {
   componentDidMount() {
     this.props.initSquare()
     this.props.initPlayer()
+    //console.log(this.props,'test props')
   }
 
   handleClick(i) {
